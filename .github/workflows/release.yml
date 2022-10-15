@@ -2,8 +2,8 @@ name: Push_release_w/_tag
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
                         
 jobs:
   Make_GitHub_Release:
